@@ -20,7 +20,7 @@ python firma_pdf.py documento.pdf 12345678
 input_path,pin=sys.argv[1],sys.argv[2]# path of the input file, user pin
 output_pdf=input_path[:-4]+"_signed.pdf"
 
-visible=True# Impostare True se si vuole la firma visibile
+visible=False# Impostare True se si vuole la firma visibile
 visible_text="Firma"
 firme=[(1,350,150),(2,350,350)]# pagina e posizione delle firme visibili, nell'esempio le firme vengono messe nelle pagina 1 e 2
 
