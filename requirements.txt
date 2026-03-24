@@ -1,0 +1,6 @@
+python-pkcs11
+pyhanko[opentype]
+pyhanko[image-support]
+lxml
+PyKCS11
+signxml
