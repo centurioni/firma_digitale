@@ -8,7 +8,7 @@ from signxml.xades import (XAdESSigner, XAdESVerifier, XAdESVerifyResult, XAdESS
 
 """
 esempio di utilizzo
-python firma_xades.py documento.xml 12345678
+python firma_xml.py documento.xml 12345678
 """
 
 # 1. FUNZIONE DI FIRMA CON CNS
