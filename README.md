@@ -4,3 +4,5 @@ Script python per firmare con la CNS (carta nazionale dei servizi) sotto linux n
 Esempio di utilizzo: python firma_xml.py fattura.xml 12345678
 
 Con il formato PAdES è anche possibile inserire la firma visibile indicando le pagine e la posizione, occorre però editare il file sorgente firma_pdf.py
+
+Occorrono anche le libreire OpenSC, in debian "apt install opensc"
